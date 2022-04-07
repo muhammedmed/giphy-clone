@@ -1,0 +1,56 @@
+.landscape-left-row{
+    display:grid;
+    grid-template-columns: 550px 265px 265px;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.landscape-right-row{
+    display:grid;
+    grid-template-columns:1fr 1fr 2fr;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.no-landscape-row{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.landscape-middle-row{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.giphy-tile{
+    height:280px;
+    overflow:hidden;
+    position: relative;
+    margin:10px;
+    cursor: pointer;
+    box-shadow: rgba(2, 49, 255, 0.4) 0px 5px, rgba(18, 34, 255, 0.3) 0px 10px, rgba(15, 51, 255, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(85, 20, 61, 0.05) 0px 25px;
+}
+
+
+.giphy-tile img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.giphy-tile img:hover{
+    transition: transform .5s ease-in-out;
+    transform: scale(1.2);
+    transform-origin: 100% 0;
+}
+
+.text-tile{
+    position:absolute;
+    left:10px;
+    bottom:5px;
+}

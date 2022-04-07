@@ -1,0 +1,33 @@
+.clips_box{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    gap:10px;
+}
+
+.first_column{
+    height:442px;
+    width:750px;
+}
+
+.first_column img{
+    height:100%;
+    width:100%;
+    border-radius: 3px;
+}
+
+.second_column{
+    width:350px;
+    height: 450px;
+}
+
+.second_column img{
+    width:340px;
+    height:193px;
+    object-fit: cover;
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    height:50px;
+}
+

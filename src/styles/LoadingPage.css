@@ -1,0 +1,46 @@
+.loading{
+    display:flex;
+    justify-content: center;
+    margin:25% 0;
+}
+.balls {
+    width: 3.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .balls div {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background-color: #fc2f70;
+    transform: translateY(-100%);
+    animation: wave 0.8s ease-in-out alternate infinite;
+  }
+  
+  .balls div:nth-child(2){
+    background-color: #00b7ff;
+    animation-delay: -0.4s;
+    animation-delay: -0.2s;
+  }
+
+  
+  .balls div:nth-child(3){
+    background-color: #00ff62;
+  }
+
+  .balls div:nth-of-type(1) {
+    animation-delay: -0.4s;
+  }
+  
+  
+  @keyframes wave {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
