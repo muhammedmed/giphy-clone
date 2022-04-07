@@ -11,3 +11,5 @@ I tried to make a copy of the giphy site in this application. Currently, it is a
 [Demo](https://giphyclone-reactjs.netlify.app/)
 
 ## ScreenShot 
+
+![github](giphyclone.png) 
